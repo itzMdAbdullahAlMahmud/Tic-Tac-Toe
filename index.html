@@ -7,11 +7,18 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
+<div id="title">
+    <h1 id="gameName">Tic Tac Toe</h1>
+</div>
     <main>
-        <h1>Tic Tac Toe</h1>
-        <p id="msg" class="hidden">Winner gotten</p>
-        <button class="reset-button" id="new-game">New Game</button>
+        <div id="rnbtn">
+            <button class="reset-button" id="new-game">New Game</button>
+            
+            <p id="msg" class="hidden">Winner gotten</p>
 
+            <button class="reset-button" id="reset-button-id">Reset Game</button>
+        </div>
+        
         <div class="game">
             <button class="box"></button>
             <button class="box"></button>
@@ -23,7 +30,6 @@
             <button class="box"></button>
             <button class="box"></button>
         </div>
-        <button class="reset-button" id="reset-button-id">Reset Game</button>
     </main>
 
     <script src="index.js"></script>
