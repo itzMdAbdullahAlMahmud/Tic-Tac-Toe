@@ -13,6 +13,10 @@
     border-radius: 2vmin;
 
 }
+.box:hover{
+    cursor: pointer;
+    background-color: #fff;
+}
 .game{
     height: 75vmin;
     width: 67vmin;
@@ -23,9 +27,7 @@
     align-items: center;
     border-radius: 2vmin;
 }
-body{
 
-}
 main{
     display: flex;
     flex-direction: column;
@@ -39,6 +41,9 @@ main{
     color: white;
     background-color: black;
     margin: 2vmin;
+}
+.reset-button:hover{
+    cursor: pointer;
 }
 .hidden{
     visibility: hidden;
